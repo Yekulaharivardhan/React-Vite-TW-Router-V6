@@ -22,15 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# testing
-/coverage
-
-# production
-/build
-
-# dependencies
-/node_modules
-/package-lock.json
-/.pnp
-.pnp.js

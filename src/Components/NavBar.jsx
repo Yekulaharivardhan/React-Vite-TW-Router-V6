@@ -33,7 +33,7 @@ function Navbar() {
           </Link>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"} ref={sidebarRef}>
-          <ul className="nav-menu-items ps-2" >
+          <ul className="nav-menu-items ps-2 mb-0" >
             <li className="navbar-toggle">
               <Link to="#" className="menu-bars">
                 <AiIcons.AiOutlineClose onClick={()=>setSidebar(false)}/>
